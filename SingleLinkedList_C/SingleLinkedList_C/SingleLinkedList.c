@@ -229,6 +229,38 @@ LinkedList_Long createLinkedListWithExitData(LongNodeData exitData,bool isAtHead
     return head;
 }
 
+/**
+ *  Create a link with local data [0...7]
+ *
+ *  @return link
+ */
+LinkedList_Long createLinked() {
+    LinkedList_Long head = createHeadNode();
+    if (head == NULL) {
+        return NULL;
+    }
+    LongNodeData amount = 0;
+    LinkedList_Long pLast = NULL;
+    for (LongNodeData index = 0; index < 8; index++) {
+        LinkedList_Long pNext = createHeadNode();
+        if (pNext == NULL) {
+            return head;
+        }
+        if (!index) {//append the first node to header
+            pLast = pNext;
+            head->next = pLast;
+        }else {//appending the node to last node
+            pLast->next = pNext;
+            pLast = pNext;
+        }
+        pNext->data = index;
+        amount++;
+    }
+    head->data = amount;
+    
+    return head;
+}
+
 #pragma mark query
 /**
  *  Query the lastest node of the link

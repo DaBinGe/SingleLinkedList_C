@@ -61,8 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				0FCD609D1CA1351100AD8C43 /* main.c */,
-				0FCD60A41CA1352D00AD8C43 /* SingleLinkedList.c */,
 				0FCD60A51CA1352D00AD8C43 /* SingleLinkedList.h */,
+				0FCD60A41CA1352D00AD8C43 /* SingleLinkedList.c */,
 			);
 			path = SingleLinkedList_C;
 			sourceTree = "<group>";
@@ -243,6 +243,7 @@
 				0FCD60A31CA1351100AD8C43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

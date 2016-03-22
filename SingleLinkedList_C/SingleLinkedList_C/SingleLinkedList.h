@@ -102,6 +102,12 @@ LinkedList_Long createLinkedListAtTail(int count);
  */
 LinkedList_Long createLinkedListWithExitData(LongNodeData exitData,bool isAtHeader);
 
+/**
+ *  Create a link with local data [0...7]
+ *
+ *  @return link
+ */
+LinkedList_Long createLinked();
 
 #pragma mark query
 /**
