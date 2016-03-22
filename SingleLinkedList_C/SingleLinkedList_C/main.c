@@ -33,11 +33,13 @@ void testSingleLinkedList() {
     
     LinkedList_Long head = createLinked();
     
+//    testAddMethod(head);
+    
 //    testModifyMethod(head);
     
-//    testSortMethod(head);
+    testSortMethod(head);
     
-    testDeleteMethod(head);
+//    testDeleteMethod(head);
     
 }
 
