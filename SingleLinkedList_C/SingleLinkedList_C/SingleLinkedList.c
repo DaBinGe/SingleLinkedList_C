@@ -17,7 +17,7 @@ void printMallocFailedMsg() {
 }
 
 /**
- *  Print the node data
+ *  Print the node's data
  *
  *  @param headNode
  */
@@ -30,7 +30,7 @@ void printLinkedNode(LinkedList_Long headNode) {
 }
 
 /**
- *  Print the whole link data
+ *  Print the whole link's data
  *
  *  @param headNode the header of link
  */
@@ -249,6 +249,7 @@ LinkedList_Long createLinked() {
         if (!index) {//append the first node to header
             pLast = pNext;
             head->next = pLast;
+            
         }else {//appending the node to last node
             pLast->next = pNext;
             pLast = pNext;
@@ -394,7 +395,7 @@ LinkedList_Long insertNodeIntoListAtIndex(LinkedList_Long head,LinkedList_Long n
 
 #pragma mark modify
 /**
- *  Exchage two data of two node
+ *  Exchage two datas of two the nodes
  *
  *  @param nodeLeft  node one
  *  @param nodeRight node two
@@ -406,7 +407,7 @@ void exchangeTwoNodeData(LinkedList_Long nodeLeft,LinkedList_Long nodeRight) {
 }
 
 /**
- *  Exchage two node data with two index
+ *  Exchage two nodes' data of the link in the two indexs
  *
  *  @param head       link header node
  *  @param indexLeft  index one
@@ -522,7 +523,7 @@ LinkedList_Long sortLinkedList(LinkedList_Long head,bool accending) {
 
 #pragma mark delete
 /**
- *  Delete one node at index of the link
+ *  Delete one node at the index of the link
  *
  *  @param head  link header node
  *  @param index index of the link
