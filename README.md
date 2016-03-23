@@ -1,5 +1,5 @@
 # SingleLinkedList_C
-Basic operations of single linked list,such as create,modify,query,delete,sort,revert,etc. in C langeage.
+Basic operations of single linked list,such as create,modify,query,delete,sort,revert,etc. in C language.
 
 IDE:  Mac OS EI Capitan 10.11.3,Xcode 7.2 (7C68)
 
